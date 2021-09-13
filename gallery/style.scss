@@ -1,0 +1,47 @@
+$h_color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Glory', sans-serif;
+}
+
+.gallery_header {
+    color: $h_color;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item_box {
+    margin: 16px 32px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_item {
+    display: block;
+    height: 150px;
+}
+
+.video_item {
+    width: 300px;
+}
+
+.item_header {
+    text-align: center;
+    margin: 16px;
+}
